@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="60">
+    <author>DennisK</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Claas QUADRANT 5300 FC DK edit</en>
+    </title>
+    <description>
+        <en>
+		<![CDATA[ Redone from basgame mod.]]>
+</en>
+    </description>
+	
+    <iconFilename>icons/icon_quadrant5300.png</iconFilename>
+	
+    <storeItems>
+        <storeItem xmlFilename="xml/quadrant5300.xml"/>
+    </storeItems>
+	
+	<multiplayer supported="true"/>
+	
+	<extraSourceFiles>
+        <sourceFile filename="scripts/categorizer.lua"/>
+    </extraSourceFiles>
+	
+	<newcategory name="DennisKtools" title="DennisK" type="TOOL" img="Categories/CategoryTools.png" />
+	
+</modDesc>
